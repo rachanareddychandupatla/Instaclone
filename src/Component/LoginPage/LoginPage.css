@@ -1,0 +1,79 @@
+.body {
+  background-color: #fafafa;
+}
+
+.mainPage {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -65px;
+}
+
+.loginPage {
+  height: 380px;
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  margin-top: 25px;
+  background-color: white;
+}
+
+.instaLogo {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.loginInput {
+  width: 258px;
+  height: 36px;
+  margin: 5px;
+  border: 1px solid #dbdbdb;
+  background-color: #fafafa;
+  padding-left: 10px;
+  border-radius: 5px;
+  color: #8e8e8e;
+}
+
+.loginButton {
+  width: 270px;
+  margin: 5px;
+  height: 36px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #0395f6;
+  background-color: #0395f6;
+  color: white;
+  margin-top: 5px;
+}
+
+.loginDivider {
+  width: 100px;
+  border: 1px solid black;
+  margin-top: 10px;
+  border: 1px solid #dbdbdb;
+}
+
+.loginOrDiv {
+  display: flex;
+  height: 0px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.loginOr {
+  margin: 0px 20px;
+  font-weight: 500;
+  color: #8e8e8e;
+}
+
+.loginFb {
+  color: #395185;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.loginForgot {
+  color: rgba(var(--fe0,0,55,107), 1);
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 12px;
+  text-align: center;
+}
