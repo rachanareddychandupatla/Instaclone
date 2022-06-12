@@ -1,4 +1,4 @@
-.body {
+body {
   background-color: #fafafa;
 }
 
@@ -9,8 +9,8 @@
 }
 
 .loginPage {
-  height: 380px;
   width: 350px;
+  padding-bottom: 25px;
   border: 1px solid #dbdbdb;
   margin-top: 25px;
   background-color: white;
@@ -67,13 +67,54 @@
 .loginFb {
   color: #395185;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .loginForgot {
   color: rgba(var(--fe0,0,55,107), 1);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
   margin-top: 12px;
   text-align: center;
+}
+
+.fbLogo {
+  margin-right: 5px;
+}
+
+.signUpPage {
+  height: 56px;
+  width: 350px;
+  border: 1px solid #dbdbdb;
+  margin: 25px 0px;
+  background-color: white;
+}
+
+.signUp {
+  padding: 14px ;
+}
+
+.signIn {
+  padding: 14px ;
+}
+
+.signUpText {
+  font-weight: bold;
+  color: #0395f6
+}
+
+.signInText {
+  font-weight: bold;
+  color: #0395f6
+}
+
+.downloadSection {
+  height: 105px;
+  width: 350px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.imageSection {
+  margin: 20px 5px 5px 5px !important;
 }
