@@ -1,0 +1,28 @@
+.post {
+    width: 615px;
+    border: 1px solid #dbdbdb;
+    margin-top: 25px;
+}
+
+.postHeader {
+    height: 60px;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+}
+
+.postImage {
+    min-width: 30px;
+    min-height: 30px;
+    margin: 10px;
+}
+
+.postUserName {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.postReactImage {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
