@@ -1,0 +1,38 @@
+.suggestionsContainer {
+    /* width: 325px;
+    height: 290px; */
+    margin-top: 25px;
+    padding-left: 3%;
+}
+
+.suggestionsHeader {
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+.suggestionsBody {
+    height: 256px;
+    width: 290px;
+    margin-top: 10px;
+}
+
+.suggestionsFriend {
+    display: flex;
+    padding: 5px 0px;
+}
+
+.suggestionsImage {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.suggestionsUsername {
+    font-weight: bold;
+    margin: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .suggestionsContainer {
+        display: none;
+    }
+}

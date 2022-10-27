@@ -3,6 +3,8 @@ body {
 }
 
 .mainPage {
+  justify-content: center;
+  text-align: center;
   display: flex;
   margin-top: 10px;
   margin-left: -65px;
@@ -14,6 +16,7 @@ body {
   border: 1px solid #dbdbdb;
   margin-top: 25px;
   background-color: white;
+  justify-content: center;
 }
 
 .instaLogo {
@@ -22,7 +25,7 @@ body {
 }
 
 .loginInput {
-  width: 258px;
+  width: 265px;
   height: 36px;
   margin: 5px;
   border: 1px solid #dbdbdb;
@@ -100,12 +103,14 @@ body {
 
 .signUpText {
   font-weight: bold;
-  color: #0395f6
+  color: #0395f6;
+  cursor: pointer;
 }
 
 .signInText {
   font-weight: bold;
-  color: #0395f6
+  color: #0395f6;
+  cursor: pointer;
 }
 
 .downloadSection {
@@ -117,4 +122,22 @@ body {
 
 .imageSection {
   margin: 20px 5px 5px 5px !important;
+}
+
+.fill-window {
+  justify-content: center;
+}
+
+.appSection {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 782px) {
+  .loginImage {
+    display: none;
+  }
+
+  .mainPage {
+    margin-left: 0px;
+  }
 }

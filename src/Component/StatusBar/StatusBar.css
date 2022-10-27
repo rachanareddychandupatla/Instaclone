@@ -1,6 +1,6 @@
 .statusBar {
     height: 120px;
-    width: 615px;
+    /* width: 615px; */
     background-color: white;
     border: 1px solid #dbdbdb;
     margin-top: 25px;
@@ -28,3 +28,8 @@
     overflow-x: hidden;
     text-align: center ;
 }
+
+.statusBarUpload {
+    margin: 30px 20px 30px 20px;
+}
+

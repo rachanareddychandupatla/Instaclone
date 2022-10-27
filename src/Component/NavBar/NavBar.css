@@ -14,10 +14,27 @@
 
 .navbarSearch {
     height: 30px;
-    width: 215px;
+    width: 75%;
     margin-top: 10px;
     border: 1px solid #dbdbdb;
     text-align: center;
     background-color: #fafafa;
     border-radius: 5px;
+}
+
+.fileupload > input {
+    display: none;
+}
+
+@media screen and (max-width: 808px) {
+    .navbarSearch {
+        display: none;
+        width: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbarImage {
+        display: none !important;
+    }
 }

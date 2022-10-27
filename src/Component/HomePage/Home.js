@@ -7,12 +7,18 @@ class Home extends Component {
     constructor(props) {
         super(props);
     }
-    state = {  }
+    state = { 
+        data: [],
+     }
+
+     updateData = (data) => {
+        this.setState({data: data});
+     }
     render() { 
         return (
              <div>
-                <NavBar />
-                <MainContent />
+                <NavBar  />
+                <MainContent data={this.updateData}/>
              </div>
         );
     }

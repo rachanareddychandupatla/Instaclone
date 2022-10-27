@@ -1,0 +1,29 @@
+.infoContainer {
+    margin-top: 50px;
+    display: flex;
+    padding-left: 3%;
+}
+
+.infoImage {
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.infoContent {
+    margin-left: 20px;
+}
+
+.infoUsername {
+    margin: 5px;
+    font-weight: bold;
+}
+
+.infoDescription {
+    margin: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .infoContainer {
+        display: none;
+    }
+}
